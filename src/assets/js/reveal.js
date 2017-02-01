@@ -5,11 +5,11 @@ if (Reveal !== undefined) {
 
     progress: true,
 
+    fragments: true,
+
     history: true,
 
     center: true,
-
-    transition: 'convex',
 
     dependencies: [
       // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
