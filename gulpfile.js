@@ -38,7 +38,7 @@ elixir(mix => {
     .copy('./node_modules/reveal.js/js/reveal.js', 'build/public/assets/vendors/revealjs/js/reveal.js')
     .copy('./node_modules/reveal.js/css/print', 'build/public/assets/vendors/revealjs/css/print')
     .copy('./node_modules/reveal.js/css/theme', 'build/public/assets/vendors/revealjs/css/theme')
-    .copy('./node_modules/reveal.js/css/reveal.scss', 'build/public/assets/vendors/revealjs/css/reveal.css')
+    .sass('./node_modules/reveal.js/css/reveal.scss', 'build/public/assets/vendors/revealjs/css/reveal.css')
     .copy('./node_modules/reveal.js/plugin/', 'build/public/assets/vendors/revealjs/plugin')
     .copy('./node_modules/reveal.js/lib/', 'build/public/assets/vendors/revealjs/lib')
 
