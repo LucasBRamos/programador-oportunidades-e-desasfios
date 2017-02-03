@@ -42,6 +42,9 @@ elixir(mix => {
     .copy('./node_modules/reveal.js/plugin/', 'build/public/assets/vendors/revealjs/plugin')
     .copy('./node_modules/reveal.js/lib/', 'build/public/assets/vendors/revealjs/lib')
 
+    .copy('./node_modules/font-awesome/fonts/', 'build/public/assets/vendors/font-awesome/fonts/')
+    .copy('./node_modules/font-awesome/css/font-awesome.min.css', 'build/public/assets/vendors/font-awesome/css/')
+
     .movefile()
 
     .browserSync({
