@@ -1,9 +1,9 @@
 if (Reveal !== undefined) {
   Reveal.initialize({
 
-    controls: true,
+    controls: false,
 
-    progress: true,
+    progress: false,
 
     fragments: true,
 
