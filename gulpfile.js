@@ -35,6 +35,8 @@ elixir(mix => {
 
     .webpack('./src/assets/js/reveal.js', 'build/public/assets/js/reveal.min.js')
 
+    .copy('./src/assets/images/**/**.*', 'build/public/assets/images')
+
     .copy('./node_modules/reveal.js/js/reveal.js', 'build/public/assets/vendors/revealjs/js/reveal.js')
     .copy('./node_modules/reveal.js/css/print', 'build/public/assets/vendors/revealjs/css/print')
     .copy('./node_modules/reveal.js/css/theme', 'build/public/assets/vendors/revealjs/css/theme')
